@@ -29,6 +29,26 @@ header p.slogan {
   font-style: italic;
   color: #ccc;
 }
+/* MODAL BOAS VINDAS */
+.modal{
+  width: 560px;
+  height: 300px;
+ background-color: #252525;
+  color: white;
+  text-align: center;
+}
+.modal-boas-vindas{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0,0.5);
+  position: fixed;
+  top:0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 nav {
   background-color: #0d0d0d;
   color: #fff;
@@ -137,6 +157,15 @@ section#contato form .botao {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.botao{
+   font-weight: bold;
+   width: 120px;
+  height: 50px;
+}
+.botao:hover{
+  color: red;
+  background-color: #3f3f3f;
 }
 section#contato form button:hover {
   background-color: #555;
