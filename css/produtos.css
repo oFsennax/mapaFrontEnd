@@ -1,0 +1,14 @@
+#botao-compra{
+    background-color: #ffd0009c;
+    border-radius: 5%;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+ #preco-antigo {
+    text-decoration: line-through;
+    color: black;
+  }
+  
+   
