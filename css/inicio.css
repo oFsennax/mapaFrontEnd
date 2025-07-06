@@ -6,7 +6,6 @@ body {
 }
 header {
   background-color: #000000;
-  background-image: url(../img/banner.jpg);
   background-position: center;
   color: #fff;
   padding: 5px 0;
@@ -22,8 +21,8 @@ header p {
   margin: 10px 0;
 }
 header img.logo {
-  /* border-radius: 100%; */
-  width: 330px;
+ border-radius: 10px;
+  width: 400px;
   height: 200px;
 }
 header p.slogan {
@@ -86,7 +85,7 @@ section#produtos ul.lista-produtos {
 }
 section#produtos ul.lista-produtos li {
   background-color: #f9f9f9;
-  border: 1px solid gold;
+  border: 1px solid silver;
   padding: 10px;
   border-radius: 5px;
   text-align: center;
